@@ -14,13 +14,11 @@ const url = require('url');
 module.exports = function (source, map, meta) {
   const {
     cacheable,
-    resourcePath
+    resourcePath,
+    context
   } = this;
   cacheable && cacheable();
-
-  const {
-    context
-  } = this.options
+  
   const callback = this.async();
 
   const {
