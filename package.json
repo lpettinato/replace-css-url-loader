@@ -14,8 +14,7 @@
     "absolute-url"
   ],
   "scripts": {
-    "test": "mocha",
-    "prepare": "cd node_modules/replace-css-url-loader && npm install"
+    "test": "mocha"
   },
   "repository": "https://github.com/futurist/replace-css-url-loader",
   "author": "James Yang",
